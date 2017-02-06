@@ -1,321 +1,85 @@
-<!doctype html>
-
-
-
-  
-
-
-<html class="theme-next muse use-motion" lang="">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <title>“我学会了安静看书” | Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
+      <link rel="icon" href="/favicon.png">
     
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="/js/google-code-prettify/tomorrow-night-eighties.min.css">
+
+  </head>
+
+  <body>
+
+<header>
+	<a id="logo" href="/" title="Hexo">
+	<img src="/favicon.png" alt="Hexo"></a>
+	
+	
+		<!--搜索栏-->
+		<i class="js-toggle-search iconfont icon-search"></i>
 
 
+<form class="js-search search-form search-form--modal" method="get" action="http://gushi.li" role="search">
+	<div class="search-form__inner">
+		<div>
+			<i class="iconfont icon-search"></i>
+			<input class="text-input" placeholder="Enter Key..." type="search">
+		</div>
+	</div>
+</form>
+	
 
+	
+		<!--侧边导航栏-->
+		<a id="nav-toggle" href="#"><span></span></a>
 
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
-
-
-
-
-
-
-<meta name="description" content="2016年给自己列了十件必须完成的事情">
-<meta property="og:type" content="article">
-<meta property="og:title" content="“我学会了安静看书”">
-<meta property="og:url" content="http://yoursite.com/2017/02/06/“我学会了安静看书”/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="2016年给自己列了十件必须完成的事情">
-<meta property="og:updated_time" content="2017-02-06T08:34:38.880Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="“我学会了安静看书”">
-<meta name="twitter:description" content="2016年给自己列了十件必须完成的事情">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Muse',
-    sidebar: {"position":"left","display":"post"},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: '0',
-      author: 'Author'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="http://yoursite.com/2017/02/06/“我学会了安静看书”/"/>
-
-
-
-
-
-  <title> “我学会了安静看书” | Hexo </title>
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="">
-
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-left page-post-detail ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
-
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">Hexo</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-    
-      <p class="site-subtitle"></p>
-    
-</div>
-
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            Startseite
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            Archiv
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            Tags
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
+<nav>
+	<div class="menu-top-container">
+		<ul id="menu-top" class="menu">
+			
+				
+				<li class="current-menu-item">
+					<a href="http://weibo.com/yumemor/" target="_blank">Weibo</a>
+				</li>
+			
+		</ul>
+	</div>
 </nav>
+	
 
+</header>
+<div class="m-header ">
+	<section id="hero1" class="hero">
+		<div class="inner">
+		</div>
+	</section>
+	
+		<figure class="top-image" data-enable=true></figure>
+	
+</div>
 
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-
-  <div id="posts" class="posts-expand">
-    
-
+<!--文章列表-->
+<div class="wrapper">
+  
+    <!--文章-->
+<article>
+	
+  
+    <h1 class="post-title" itemprop="name">
+      “我学会了安静看书”
+    </h1>
   
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/06/“我学会了安静看书”/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="John Doe">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Hexo">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Hexo" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                “我学会了安静看书”
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-06T13:47:38+08:00">
-                2017-02-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p>2016年给自己列了十件必须完成的事情<br><a id="more"></a><br>其中一件事情是学会游泳 最终我也自学学会了游泳<br>这件开心的事情让我觉得很有成就感 虽然只是简单的会了基础的蛙泳<br>但每天下班第一件想做的事情就是去水里游几圈子<br>这也成为了16年夏天最开心的事情<br>也算是一个人享受属于自己的空间<br>我有个男性朋友（只是朋友关系）<br>他曾经在朋友面前评价我 说我很享受一个人的时光<br>这个确实是的 我喜欢一个人逛街 跑步 看电影 旅游 宅在家里看电视 玩全民k歌  现在又多了一个人游泳<br>为什么我不喜欢团体活动呢<br>其实刚毕业那会儿经常会去豆瓣上找一些好玩的活动去参加<br>而且也认识了不少朋友<br>因为大家都是年轻人 所以在一起可聊的可玩的就很多<br>一起桌游 爬山 甚至那时候我爬遍了广州所有的山 我也不觉得去任何地方要座公交转地铁麻烦 却很开心 乐在其中<br>但不巧的是<br>14年夏天我跑去了北京 </p>
+	<div class='post-body mb'>
+		<p>2016年给自己列了十件必须完成的事情<br><a id="more"></a><br>其中一件事情是学会游泳 最终我也自学学会了游泳<br>这件开心的事情让我觉得很有成就感 虽然只是简单的会了基础的蛙泳<br>但每天下班第一件想做的事情就是去水里游几圈子<br>这也成为了16年夏天最开心的事情<br>也算是一个人享受属于自己的空间<br>我有个男性朋友（只是朋友关系）<br>他曾经在朋友面前评价我 说我很享受一个人的时光<br>这个确实是的 我喜欢一个人逛街 跑步 看电影 旅游 宅在家里看电视 玩全民k歌  现在又多了一个人游泳<br>为什么我不喜欢团体活动呢<br>其实刚毕业那会儿经常会去豆瓣上找一些好玩的活动去参加<br>而且也认识了不少朋友<br>因为大家都是年轻人 所以在一起可聊的可玩的就很多<br>一起桌游 爬山 甚至那时候我爬遍了广州所有的山 我也不觉得去任何地方要座公交转地铁麻烦 却很开心 乐在其中<br>但不巧的是<br>14年夏天我跑去了北京 </p>
 <p>刚去北京 没有熟人 没有朋友<br>maybe是我胆子大<br>住酒店住了几天 就找到了一个合租的房子<br>房子在天通苑 正规的两居室 室友是一对情侣  河南人 对我真心很好<br>第一天晚上刚去入住 么有被褥 反正我就一个箱子 一个人<br>这对情侣就带着我去小区对面的超市买东西<br>真的很好的那种 当天我感觉自己很幸运<br>后来一起住的日子 我就变成了在自己的小房间睡觉 打游戏 种花种草<br>每到周末 他俩就做好午饭喊我起床<br>因为玩的也很好 后来还买了单车 一起骑行 走的时候 那辆单车我就留给了接我房间的小姑娘<br>不和他们一起玩的时候 我突然就学会了一个人独处<br>附近有个商场 我就一个人去逛街 去看电影 去咖啡厅 小酒吧坐着<br>有时候会和朋友一起 但是大部分时间我都是一个人 </p>
 <p>租好的房子就在公司旁边 2站公交车的样子 有时候会走路上班 有时候骑单车 冬天就座公车或者打车<br>那时候公司项目比较好 工资也够花 心情也好 虽然没谈男朋友 但身边不少追求者 也就觉得挺开心 被一群人围着的感觉大部分女生都比较喜欢吧<br>后来在公司熟了之后 和各个部门的老大关系也处理的不错<br>最好的就是技术部门的老大<br>因为彼此都喜欢跑步 他经常喊我去奥体跑步<br>就这样子 他跑马拉松的时候我跑去助阵<br>只是因为自己不爱人多的地方 所以我也不想参加<br>想当年上学的时候 越野赛我都是拿奖的<br>不擅长短跑 但是我长跑还是很不错的  耐力比较好<br>就这样子 在北京的一年生活 让我养成了 喜欢独处 偶尔和朋友在一起的状态</p>
 <p>现在想想我本身就是北方人 北京的生活是很适合我的<br>而且我也很喜欢周末去周边玩 那种四季分明 秋高气爽的日子 真的很舒服<br>离开了北京我又回到了广州的这一年多<br>广州周边的山山水水也是被我玩了个遍<br>可能因为年轻 也很可能因为一个人的时间太多<br>不想浪费掉 就出去走走<br>我闺蜜的男朋友有句名言是 年轻的时候宅在家 老了多出去走走<br>可能我不恋家吧 从小习惯了独立生活 对于我而言 年轻的时候就要多出去走走<br>多读书不如多出去看看<br>外面的世界会教会我们更多生活的道理</p>
@@ -326,283 +90,113 @@
 <p>在这个孤独的世界 在我还未成为我想要的那种人 在我还未完成想要的生活的时候<br>珍惜当下 可能失去后会更加坚强 可能蜕变会给自己带来更多的财富<br>但如果这个世界 或者你身边的人和事已经不值得留恋和在乎<br>选择放下 要么选择去恨<br>心理学上讲 一个人痛苦的折磨自己 不如去把情绪转移到其它人或者事情上<br>可能自我调节比较难 但情绪的转移更容易快速走出怪圈<br>可以选择关注其它事情 工作忙碌起来 感情暂且放一边<br>时间会说明一切<br>虽然现在这个年龄比较尴尬<br>但我还是觉得朋友说的对 我们还年轻 我们还有时间去折腾<br>不要害怕这个世界  不要害怕凡俗会影响我们前进的脚步<br>努力精彩的去活自己的人生</p>
 <p>17年 从现在开始 还有10个月<br>选择安静看书 来一场旅行 多交几个有趣的朋友<br>学会看待事情的表象和内里<br>学会认真对待这个世界<br>学会好好生活 用一颗平常心 去做自己想做的事情 去勇敢往前飞<br>世界这么大 总会有属于自己的一片天<br>you are the challenger</p>
 
-      
-    </div>
+	</div>
+	<div class="meta split">
+		<time class="post-date" datetime="2017-02-06T05:47:38.000Z" itemprop="datePublished">2017-02-06</time>
+	</div>
+</article>
 
-    <div>
-      
-        
+<!--评论-->
 
-      
-    </div>
-
-    <div>
-      
-        
-
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2017/02/04/人生如梦/" rel="next" title="人生如梦">
-                <i class="fa fa-chevron-left"></i> 人生如梦
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </article>
-
-
-
-    <div class="post-spread">
-      
-    </div>
-  </div>
-
-          
-          </div>
-          
-
-
-          
-  <div class="comments" id="comments">
-    
-  </div>
-
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="John Doe" />
-          <p class="site-author-name" itemprop="name">John Doe</p>
-          <p class="site-description motion-element" itemprop="description"></p>
-        </div>
-        <nav class="site-state motion-element">
-        
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives">
-                <span class="site-state-item-count">3</span>
-                <span class="site-state-item-name">Artikel</span>
-              </a>
-            </div>
-          
-
-          
-
-          
-
-        </nav>
-
-        
-
-        <div class="links-of-author motion-element">
-          
-        </div>
-
-        
-        
-
-        
-        
-
-        
-
-
-      </section>
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2017</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
-</div>
-
-
-<div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
-</div>
-
-<div class="theme-info">
-  Theme -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
-  </a>
-</div>
-
-
-        
-
-        
-      </div>
-    </footer>
-
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </div>
-  </div>
-
-  
-
+	
+<div class="ds-thread" data-thread-key="“我学会了安静看书”" data-title="“我学会了安静看书”" data-url="http://yoursite.com/2017/02/06/“我学会了安静看书”/"></div>
 <script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
+
+var duoshuoQuery = {short_name:"yumemor"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0]
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
 </script>
 
 
+  
+</div>
 
 
-
-
-
-
+  <svg id="bigTriangleColor" width="100%" height="40" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <path d="M0 0 L50 100 L100 0 Z"></path>
+  </svg>
 
   
 
 
-
-
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
-
-
-
-  
-
-
-
-  
-
-
-
-
-	
+  <div class="wrapper"></div>
 
 
 
 
 
-  
+<div class="fat-footer">
+	<div class="wrapper">
+		<div class="layout layout--center">
+			<div class="layout__item palm-mb">
+				<div class="media">
+					<img class="headimg" src='http://oct8d1mqf.bkt.clouddn.com/2016-10-17-15%3A42%3A28.jpg' alt='John Doe'>
+					<div class="media__body">
+						<h4>Hexo</h4>
+						<p class='site-description'>null</p>
+					</div>
+				</div>
+				<div class="author-contact">
+					<ul>
+						
+							
+							<li>
+				        		<a href="http://weibo.com/yumemor/" target="_blank">
+				        			
+				        				<i class="iconfont icon-weibo"></i>
+				        			
+				        		</a>
+				        	</li>
+						
+							
+							<li>
+				        		<a href="https://github.com/yumemor" target="_blank">
+				        			
+				        				<i class="iconfont icon-github"></i>
+				        			
+				        		</a>
+				        	</li>
+						
+							
+							<li>
+				        		<a href="https://www.zhihu.com/people/yumemor" target="_blank">
+				        			
+										<i class="iconfont icon-zhihu"></i>
+				        			
+				        		</a>
+				        	</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
+<footer class="footer" role="contentinfo">
+	<div class="wrapper wrapper--wide split split--responsive">
+		<span>Theme by <a href="http://github.com/yumemor">Yumemor</a>. Powered by <a href="http://hexo.io">Hexo</a></span>
+	</div>
+</footer>
 
-
-
-
-  
-
-  
-      <!-- UY BEGIN -->
-      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid="></script>
-      <!-- UY END -->
-  
-
-
-
-
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-
-</body>
+	<!-－这里导入了 lib.js 里面涵盖了 jQuery 等框架 所以注释掉-->
+	<!--<script src="http://lib.sinaapp.com/js/jquery/2.0/jquery.min.js"></script>-->
+	<script src="/js/lib.js"></script>
+	<script src="/js/google-code-prettify/prettify.js"></script>
+	<script src="/js/module.js"></script>
+	<script src="/js/script.js"></script>
+	<script type='text/javascript'>
+		//代码高亮
+		$(document).ready(function(){
+	 		$('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+   			prettyPrint();
+		});
+	</script>
+	</body>
 </html>
